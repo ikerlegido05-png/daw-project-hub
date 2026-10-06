@@ -30,3 +30,5 @@ No bastaría. Git guarda todo el historial de cambios para siempre. Si borramos 
 
 ## Instrucciones de uso
 Para visualizar esta página web, simplemente descarga o clona este repositorio en tu equipo y haz doble clic sobre el archivo `index.html` para abrirlo en tu navegador web predeterminado. No requiere de ningún servidor ni configuración adicional.
+
+holaholaholaholaholaholaholaholaholaholaholaholaholahola
