@@ -20,3 +20,13 @@ Habría que entrar inmediatamente al servicio original (la base de datos, la API
 
 4. **¿Bastaría con eliminar el archivo en un commit posterior? Justificar la respuesta.**
 No bastaría. Git guarda todo el historial de cambios para siempre. Si borramos el archivo en un commit nuevo, cualquier persona podría seguir viendo la contraseña simplemente revisando los commits antiguos en GitHub.
+
+## Conflicto resuelto
+
+1. **¿Por qué se produjo?** El conflicto ocurrió porque modifiqué exactamente la misma línea de código (el párrafo dentro del header) en dos ramas diferentes (`main` y `feature/nuevo-eslogan`) antes de fusionarlas.
+2. **¿Qué archivo estaba afectado?** El archivo afectado fue `index.html`.
+3. **¿Qué decisión se tomó?** Se decidió conservar ambas ideas. Entré al archivo, eliminé los marcadores automáticos de Git (`<<<<<<<`, `=======`, `>>>>>>>`) y redacté una frase nueva que combinaba el concepto de "aprender y publicar" de una rama con las "fases de despliegue" de la otra.
+4. **¿Cómo se comprobó la resolución?** Se comprobó añadiendo el archivo corregido con `git add`, realizando un nuevo commit de fusión y verificando que el comando `git log --graph --oneline --all` mostraba las ramas unidas correctamente.
+
+## Instrucciones de uso
+Para visualizar esta página web, simplemente descarga o clona este repositorio en tu equipo y haz doble clic sobre el archivo `index.html` para abrirlo en tu navegador web predeterminado. No requiere de ningún servidor ni configuración adicional.
